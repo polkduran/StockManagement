@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FnacDarty.JobInterview.Stock", "FnacDarty.JobInterview.Stock\FnacDarty.JobInterview.Stock.csproj", "{723D1E94-864A-493A-B45F-8311C052BB0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FnacDarty.JobInterview.Stock.UnitTest", "FnacDarty.JobInterview.Stock.UnitTest\FnacDarty.JobInterview.Stock.UnitTest.csproj", "{0CD121EC-A9A0-41D1-86AA-EB6EA94E5B00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2F9FFDCD-0B37-4B28-BE18-396F4A3002BD}"
+	ProjectSection(SolutionItems) = preProject
+		README_FIRST.txt = README_FIRST.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{723D1E94-864A-493A-B45F-8311C052BB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723D1E94-864A-493A-B45F-8311C052BB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723D1E94-864A-493A-B45F-8311C052BB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723D1E94-864A-493A-B45F-8311C052BB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD121EC-A9A0-41D1-86AA-EB6EA94E5B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD121EC-A9A0-41D1-86AA-EB6EA94E5B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD121EC-A9A0-41D1-86AA-EB6EA94E5B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD121EC-A9A0-41D1-86AA-EB6EA94E5B00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4714079A-4CA4-4A10-8ADD-8E5B2262B3EE}
+	EndGlobalSection
+EndGlobal
