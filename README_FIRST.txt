@@ -14,32 +14,32 @@ Un mouvement (ou flux) de produits contient une date, un libellé, et un ou plus
 Fonctionnalités générales
 ================================
 Nous devons pouvoir pour ce stock : 
- i ajouter des quantités de produits (par exemple lors d'achat aux fournisseurs) 
- i supprimer des quantités de produits (par exemple lors de commande clients) 
- i ajouter plusieurs mouvements de stock sur plusieurs produits à une date (mais avec un seul libellé)
- i connaitre le stock d'un produit à n'importe quelle date dans le passé
- i connaitre les variations de stock d'un produit pendant n'importe quelle période(intervalle de date)
+ t ajouter des quantités de produits (par exemple lors d'achat aux fournisseurs) 
+ t supprimer des quantités de produits (par exemple lors de commande clients) 
+ t ajouter plusieurs mouvements de stock sur plusieurs produits à une date (mais avec un seul libellé)
+ t connaitre le stock d'un produit à n'importe quelle date dans le passé
+ t connaitre les variations de stock d'un produit pendant n'importe quelle période(intervalle de date)
     Si un stock est à 10 à une date d1, et à 20 à une date d2, alors la variation entre d1 et d2 est +10.
- i connaitre le stock actuel d'un produit
- i connaitre les produits actuellement en stock (les stocks négatifs sont considérés comme nuls)
- i connaitre le nombre total de produit dans le stock (les stocks négatifs sont considérés comme nuls)
- i régulariser le stock d'un produit (voir inventaire)
+ t connaitre le stock actuel d'un produit
+ t connaitre les produits actuellement en stock (les stocks négatifs sont considérés comme nuls)
+ t connaitre le nombre total de produit dans le stock (les stocks négatifs sont considérés comme nuls)
+ t régulariser le stock d'un produit (voir inventaire)
 
 Les mouvements ne se suivent pas forcément dans le temps, 
-i mais il n'est pas possible d'ajouter un mouvement à une date antérieure ou égale à celle d'un inventaire.
+t mais il n'est pas possible d'ajouter un mouvement à une date antérieure ou égale à celle d'un inventaire.
 
 ===============================
 Inventaire
 ===============================
 De temps à autre une régulation du stock (un inventaire) est fait sur un produit. 
-i On doit pouvoir alors créer un mouvement pour un produit qui fixe le stock à une valeur donnée à la date du jour.
+t On doit pouvoir alors créer un mouvement pour un produit qui fixe le stock à une valeur donnée à la date du jour.
 
 ===============================
 Détails
 ===============================
-i L'ajout dans le stock d'un produit non existant crée le produit.
-i Il est possible d'avoir des quantités négatives. 
-i Les mouvements d'inventaires sont uniques et ne peuvent pas être négatifs.
+t L'ajout dans le stock d'un produit non existant crée le produit.
+t Il est possible d'avoir des quantités négatives. 
+t Les mouvements d'inventaires sont uniques et ne peuvent pas être négatifs.
 i Si lors de l'insertion de ensemble de mouvements, l'une des valeurs n'est pas autorisée (pour cause d'inventaire postérieur), 
   l'ensemble des opérations est rejetée.
 i Les heures des mouvements sont ignorées.
